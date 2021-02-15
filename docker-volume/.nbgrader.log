@@ -1,0 +1,20 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/ucsddse230/work
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] Writing notebook-signing key to /home/ucsddse230/.local/share/jupyter/notebook_secret
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: a1e896f4-fbc0-48c4-b842-f62f58998d71
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Row-major-layout.png (172.17.0.1) 16.20ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210215160424 (172.17.0.1) 26.18ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel a1e896f4-fbc0-48c4-b842-f62f58998d71
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | INFO] Starting buffering for a1e896f4-fbc0-48c4-b842-f62f58998d71:64b5613fb74448efb533ab88eac261f5
