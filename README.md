@@ -40,3 +40,54 @@ For caching to be effective we need to have either:
 
 ## Row-wise vs Column-wise Scanning
 Scanning an array row-wise is more efficient than column-wise at memory locality. This effect increases proportionally to the number of elements of the array.
+
+## SC: Spark Context
+* PySpark program runs on the main node of a cluster, and control of other nodes is achieved through a special object called **Spark Context**
+## RDD: Resilient Distributed Dataset
+A mechanism for sharing memory between clusteer computers, abstracted from the programmer. ??
+* Abstraction that describes the distributed data on the cluster macchines.
+* A list whose elements are distributed over several computers.
+* The main data structure in Spark.
+* When in RDD form the list's elements can only be manipulated with RDD specific methods.
+* RDDs are created from a list on the master node or from a file.
+* RDDs can be translated back to lists using *collect* method.</br>
+RDDs support two types of operations: **transformations**, which create a new dataset from an existing one, and **actions**, which return a value to the driver program after running a computation on the dataset.
+
+## RDD Manipulation 
+1. RDDs are **partitionned** accross worker nodes.
+2. *RDD graph* defines the **lineage** of the RDDs.
+3. SC devides the RDD into *stages* that define the execution plan (a stage is a set of operations that can be executed without materialization).
+4. A **task** corresponds to one stage restricted to one partition.
+5. An executor is a process that performs tasks.
+
+## Operations on Plain RDDs
+1. Create RDDs:
+    * Parallelise()
+    * ...
+2. Transformations RDD -> RDD:
+    * map()
+3. Actions RDD -> Data on the Master Node:
+    * collect()
+    * count()
+    * reduce()
+    
+## Operations on Key-Value RDDs
+Previous operations can be done on Key-Value RDDs.</br>
+Special Key-Value RDDs operations:
+1. Transformations RDD -> RDD:
+    * map() and associate initial value as key (ex: map(lambda x: (x, x*x))).
+    * reduceByKey() reduces the elements after associating by the keys.
+    * map() for getting itterator of values of keys (ex: myRdd.map(lambda k, iter : k,[x for x in iter]))
+2. Actions RDD -> Data on the Master Node:
+    * countByKey() returns a python dictionnary of the count of each key.
+    * lookup(key) returns a list of all values associated with a key.
+    * collectAsMap() returns a dictionary of keys and lists of values.
+
+## Lazy Evaluation
+* Map operations don't **materialize** rdds, instead they describe a transformation graph that acts as an execution plan, and only materializes the rdd when we execute an action. This way spark saves memory and execution time.</br>
+*  It is better to materialize rdds in some cases, we can do that using cache() method.</br>
+
+## Partition and Gloming
+* It is useful to use at least as many workers as partitions.
+* In some cases it is better to use more partitions than workers, as it can help with load balancing.
+* glom() allows workers to read rdds as tuples (immutable lists) in order to access specific locations on them (which defies the purpose of spark but can be useful sometimes)

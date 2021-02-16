@@ -18,3 +18,65 @@
 [NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
 [NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
 [NotebookApp | INFO] Starting buffering for a1e896f4-fbc0-48c4-b842-f62f58998d71:64b5613fb74448efb533ab88eac261f5
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/ucsddse230/work
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] 302 GET / (172.17.0.1) 0.95ms
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 377f0c09-610d-475e-9d67-9f899002c730
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Row-major-layout.png (172.17.0.1) 23.94ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210216070040 (172.17.0.1) 19.64ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 377f0c09-610d-475e-9d67-9f899002c730
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/1_Row_vs_Col_Major.ipynb is not trusted
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 5704376b-2d02-4e13-b164-0722f4b19fe9
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Random_access_latency.png (172.17.0.1) 27.36ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/MacBookProMemorySizes.png (172.17.0.1) 18.92ms
+[NotebookApp | INFO] 302 GET /notebooks/Section1-Spark-Basics/0.MemoryLatency/Figures/Sequential_access_latency.png (172.17.0.1) 21.29ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210216070040 (172.17.0.1) 3.51ms referer=http://localhost:8889/notebooks/Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5704376b-2d02-4e13-b164-0722f4b19fe9
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb
+[NotebookApp | WARNING] Notebook Section1-Spark-Basics/0.MemoryLatency/2_measuring_performance_of_memory_hierarchy.ipynb is not trusted
+[NotebookApp | WARNING] Notebook pa1/collinearPoints.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: ef506bcf-b54f-46cf-ba30-757b607d73d0
+[NotebookApp | INFO] 302 GET /notebooks/pa1/non-collinear-points.jpg (172.17.0.1) 13.18ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210216070040 (172.17.0.1) 3.64ms referer=http://localhost:8889/notebooks/pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ef506bcf-b54f-46cf-ba30-757b607d73d0
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
