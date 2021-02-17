@@ -80,3 +80,46 @@
 [NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
 [NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
 [NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for 377f0c09-610d-475e-9d67-9f899002c730:2a4b2a4ac8884723b5f8bf2184e88efc
+[NotebookApp | INFO] Starting buffering for 5704376b-2d02-4e13-b164-0722f4b19fe9:72120b9712974a398d692195bddf8926
+[NotebookApp | INFO] Starting buffering for ef506bcf-b54f-46cf-ba30-757b607d73d0:5752ebd01c424c2f800c1aa4685d01d1
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/ucsddse230/work
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] interrupted
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/ucsddse230/work
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] 302 GET / (172.17.0.1) 1.73ms
+[NotebookApp | INFO] Kernel started: f41cd5fb-ffa8-4bb6-a1f0-f8ff41d04178
+[NotebookApp | INFO] 302 GET /notebooks/pa1/non-collinear-points.jpg (172.17.0.1) 13.99ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210217160115 (172.17.0.1) 15.38ms referer=http://localhost:8889/notebooks/pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f41cd5fb-ffa8-4bb6-a1f0-f8ff41d04178
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb

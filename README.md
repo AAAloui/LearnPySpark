@@ -62,32 +62,62 @@ RDDs support two types of operations: **transformations**, which create a new da
 
 ## Operations on Plain RDDs
 1. Create RDDs:
-    * Parallelise()
+    * ```Parallelise()```
     * ...
 2. Transformations RDD -> RDD:
-    * map()
+    * ```map()```
 3. Actions RDD -> Data on the Master Node:
-    * collect()
-    * count()
-    * reduce()
+    * ```collect()```
+    * ```count()```
+    * ```reduce()```
     
 ## Operations on Key-Value RDDs
 Previous operations can be done on Key-Value RDDs.</br>
 Special Key-Value RDDs operations:
 1. Transformations RDD -> RDD:
-    * map() and associate initial value as key (ex: map(lambda x: (x, x*x))).
-    * reduceByKey() reduces the elements after associating by the keys.
-    * map() for getting itterator of values of keys (ex: myRdd.map(lambda k, iter : k,[x for x in iter]))
+    * ```map()``` and associate initial value as key (ex: ```map(lambda x: (x, x*x))```).
+    * ```reduceByKey()``` reduces the elements after associating by the keys.
+    * ```map()``` for getting itterator of values of keys (ex: ```myRdd.map(lambda k, iter : k,[x for x in iter]) ```)
 2. Actions RDD -> Data on the Master Node:
-    * countByKey() returns a python dictionnary of the count of each key.
-    * lookup(key) returns a list of all values associated with a key.
-    * collectAsMap() returns a dictionary of keys and lists of values.
+    * ```countByKey()``` returns a python dictionnary of the count of each key.
+    * ```lookup(key)``` returns a list of all values associated with a key.
+    * ```collectAsMap()``` returns a dictionary of keys and lists of values.
 
 ## Lazy Evaluation
 * Map operations don't **materialize** rdds, instead they describe a transformation graph that acts as an execution plan, and only materializes the rdd when we execute an action. This way spark saves memory and execution time.</br>
-*  It is better to materialize rdds in some cases, we can do that using cache() method.</br>
+*  It is better to materialize rdds in some cases, we can do that using ```cache()``` method.</br>
 
 ## Partition and Gloming
 * It is useful to use at least as many workers as partitions.
 * In some cases it is better to use more partitions than workers, as it can help with load balancing.
-* glom() allows workers to read rdds as tuples (immutable lists) in order to access specific locations on them (which defies the purpose of spark but can be useful sometimes)
+* ```glom()``` allows workers to read rdds as tuples (immutable lists) in order to access specific locations on them (which defies the purpose of spark but can be useful sometimes)
+
+## Spark Basics pt. 2
+* **Chaining** is combining two or more operations in one command, it works the same way on spark (because it uses lazy evaluation) with the only difference being the intermediate RDDs is anonymous in this case.
+* We can view the first element of the rdd using ```my_rdd.first()```
+* We can view the first n elements of th RDD using ```my_rdd.take(n)```
+* We can sample the content of an RDD using the method ```sample(b, p)``` (with b: with or without replacement as boolean value, p probability of picking a value (number of sample values we want/number of all values of the RDD))
+* We can filter the values of an RDD using ```filter()``` (ex: ```my_rdd.filter(lambda x:x>0)```)
+* We can filter out theduplicate values of an RDD using ```distinct()``` method. This operation requires a **shuffle** in order to detect duplicates across partitions.
+* ```flatMap(func)``` is similar to ```map()```, the difference being that ```fltaMap``` maps every input element to 0 to many output elements, ex: 
+``` 
+text = ['hello world', 'this is a test']
+text_rdd = sc.parallelize(text)
+print("map = ",text_rdd.map(lambda line: line.split(' ')).collect())
+print("flatMap = ",text_rdd.flatMap(lambda line: line.split(' ')).collect())
+
+# output:
+# map = [['hello','world'],['this','is','a','test']]
+# flatMap = ['hello','world','this','is','a','test']
+```
+### Set Operations:
+* **Union** of two RDDs: ``` my_rdd.union(my_other_rdd) ```
+* **Intersection** of two RDDs:  ``` my_rdd.intersection(my_other_rdd) ```
+* **Subtract** rdd of another rdd:   ``` my_rdd.subtract(my_other_rdd) ```
+* **Cartesian** product of two RDDs:  ``` my_rdd.cartesian(my_other_rdd) ```
+
+## Spark Dataframes
+* Dataframes are efficient to store data tables in spark.
+* All of the values in a column have the same type.
+* The best way to save a dataframe in a file is a *parquet* file.
+    * Parquet files allow us to access a subset of data directly, which is way more efficient than reading the whole data and filtering out the data we don't need.
