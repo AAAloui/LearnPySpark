@@ -204,3 +204,49 @@
 [NotebookApp | INFO] http://[all ip addresses on your system]:8888/
 [NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 [NotebookApp | INFO] 302 GET / (172.17.0.1) 1.18ms
+[NotebookApp | INFO] Kernel started: d24eb5bf-b86b-4664-bbf2-b25cb9f060a4
+[NotebookApp | INFO] 302 GET /notebooks/pa1/non-collinear-points.jpg (172.17.0.1) 9.45ms
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210218082020 (172.17.0.1) 10.54ms referer=http://localhost:8889/notebooks/pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel d24eb5bf-b86b-4664-bbf2-b25cb9f060a4
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for d24eb5bf-b86b-4664-bbf2-b25cb9f060a4:1f03ecb7e55048759ca21a686f630194
+[NotebookApp | INFO] 302 GET /notebooks/pa1/non-collinear-points.jpg (172.17.0.1) 10.36ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel d24eb5bf-b86b-4664-bbf2-b25cb9f060a4
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210218082020 (172.17.0.1) 2.31ms referer=http://localhost:8889/notebooks/pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Saving file at /pa1/collinearPoints.ipynb
+[NotebookApp | INFO] Starting buffering for d24eb5bf-b86b-4664-bbf2-b25cb9f060a4:1ad1b5ae76cc42278f9b42ecdf191f8d
+[NotebookApp | WARNING] Notebook hw2_startercode/startercode.0/HW-2.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: ea715fbd-d9a1-434f-a698-526d94417dd0
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210218082020 (172.17.0.1) 4.46ms referer=http://localhost:8889/notebooks/hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ea715fbd-d9a1-434f-a698-526d94417dd0
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Starting buffering for ea715fbd-d9a1-434f-a698-526d94417dd0:c1fc47a60fe4446e8b06eb6ccc9f10aa
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel ea715fbd-d9a1-434f-a698-526d94417dd0
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210218082020 (172.17.0.1) 2.94ms referer=http://localhost:8889/notebooks/hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Starting buffering for ea715fbd-d9a1-434f-a698-526d94417dd0:2205831057394a8195fc4cdc8c9effe6
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/ucsddse230/work
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] 302 GET / (172.17.0.1) 0.84ms
+[NotebookApp | INFO] Kernel started: 4d506be0-96d1-4653-9b87-da408833e517
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210220143156 (172.17.0.1) 9.59ms referer=http://localhost:8889/notebooks/hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 4d506be0-96d1-4653-9b87-da408833e517
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
