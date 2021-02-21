@@ -250,3 +250,24 @@
 [NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
 [NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
 [NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Starting buffering for 4d506be0-96d1-4653-9b87-da408833e517:819836b9108047efb0ce64a0e322e4e5
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/ucsddse230/work
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://[all ip addresses on your system]:8888/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] 302 GET / (172.17.0.1) 1.45ms
+[NotebookApp | INFO] Kernel started: 5a83d6fe-b3f9-4dea-a547-091f204a2c61
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210221090422 (172.17.0.1) 15.66ms referer=http://localhost:8889/notebooks/hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5a83d6fe-b3f9-4dea-a547-091f204a2c61
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Starting buffering for 5a83d6fe-b3f9-4dea-a547-091f204a2c61:8a7cf89069e245ef8dc719b8f4f0529a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 5a83d6fe-b3f9-4dea-a547-091f204a2c61
+[NotebookApp | WARNING] 404 GET /static/components/bootstrap/js/tooltip.js?v=20210221090422 (172.17.0.1) 8.67ms referer=http://localhost:8889/notebooks/hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Starting buffering for 5a83d6fe-b3f9-4dea-a547-091f204a2c61:2f6c167d7af24d048691a584a999939b
