@@ -121,3 +121,10 @@ print("flatMap = ",text_rdd.flatMap(lambda line: line.split(' ')).collect())
 * All of the values in a column have the same type.
 * The best way to save a dataframe in a file is a *parquet* file.
     * Parquet files allow us to access a subset of data directly, which is way more efficient than reading the whole data and filtering out the data we don't need.
+# Section 2: PCA
+## High-dimensional Vectors
+* Vectors can be though of as **functions**.
+* Orthonormal functions can be used to remove noise added to functions with limited basis.
+### PCA
+1. compute the covariance matrix.
+2. compute the eigenvector decomposition.
