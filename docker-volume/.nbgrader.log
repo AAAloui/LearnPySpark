@@ -325,3 +325,8 @@
 [NotebookApp | INFO] Adapting to protocol v5.1 for kernel 446b665b-435e-4929-9f8d-e8e971370109
 [NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
 [NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Saving file at /hw2_startercode/startercode.0/HW-2.ipynb
+[NotebookApp | INFO] Starting buffering for 446b665b-435e-4929-9f8d-e8e971370109:922d23a65b86430985ac0afb5eaef2aa
+[NotebookApp | CRITICAL] received signal 15, stopping
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: 446b665b-435e-4929-9f8d-e8e971370109
